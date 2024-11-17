@@ -1,0 +1,73 @@
+#blue{
+    color:blue;
+  }
+  
+.purple{
+    color:purple;
+}
+  
+p{
+    color:black;
+}
+
+#blue{
+    color:blue;
+}
+    
+.red{
+    color:red;
+}
+    
+p{
+    color:purple;
+}
+
+p[class]{
+    color:red;
+}
+  
+p{
+    color:blue;
+}
+
+p{
+    color:red;
+}
+  
+  p:first-child{
+    color:blue;
+}
+  
+*{
+    color:black;
+}
+
+p{
+    color:black!important;
+}
+    
+#blue{
+      color:blue;
+}
+    
+.purple{
+      color:purple
+}
+   
+div.contain h1.contain__ttl{
+    color:red;
+}
+  
+.contain .contain__ttl{
+    color:blue;
+}div.contain h1.contain__ttl{
+    color:red;
+}
+  
+.contain .contain__ttl{
+    color:blue;
+}
+
+#firstview.contain .contain__txt p {
+    color: red;
+}

@@ -1,0 +1,21 @@
+div {
+    box-shadow: 5px 5px 3px #000;
+    background: #ff0000;
+    width: 300px;
+    height: 300px;
+}
+
+/* -------------------------------- */
+
+p {
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* -------------------------------- */
+
+.practice {
+    width: 200px;
+    height: 200px;
+    background: red;
+    box-shadow: 10px 10px 0 black;
+}

@@ -1,0 +1,65 @@
+.relative {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+  
+.absolute {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* -------------------------------- */
+
+.parents {
+    position: relative;
+}
+  
+.first {
+    position: absolute;
+    background-color: #2600FF;
+    z-index: 10;
+}
+  
+.second {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #FDFF00;
+    z-index: 0;
+}
+  
+.third {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: #FF0000;
+    z-index: -10;
+}
+  
+.box {
+    width: 200px;
+    height: 200px;
+    color: #ffffff;
+}
+  
+ /* -------------------------------- */
+
+.relative {
+    position: relative;
+}
+  
+.relative__img {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 50%;
+}
+  
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 50px;
+}
+  

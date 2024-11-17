@@ -1,0 +1,44 @@
+h1 {
+    background: #ff0000;
+    margin: 30px;
+}
+p {
+    background: #000000;
+    color: #fff;
+}
+  
+/* -------------------------------- */
+
+h1 {
+    background: #ff0000;
+    padding: 30px;
+}
+p {
+    background: #000000;
+    color: #fff;
+}
+
+/* -------------------------------- */
+.boxsizing {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 30px;
+    border: 20px solid blue;
+    margin: 100px auto 0;
+}
+.content-box {
+    box-sizing: content-box;
+}
+.border-box {
+    box-sizing: border-box;
+}
+
+/* -------------------------------- */
+
+.box {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background: red;
+}

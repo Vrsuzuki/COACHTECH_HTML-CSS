@@ -1,0 +1,28 @@
+.text{
+    color:red;
+}
+
+.text {
+    color:#ff0000;
+}
+
+.text {
+    color: rgb(255,0,0)
+}
+
+.text {
+    color:rgba(255,0,0,0.5);
+}
+
+.text {
+    font-weight: bold;
+}
+
+.text {
+    font-style: italic;
+}
+
+.text {
+    text-decoration: underline;
+}
+

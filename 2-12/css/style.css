@@ -1,0 +1,103 @@
+div {
+    background: #ff0000;
+    width: 300px;
+}
+
+
+/* -------------------------------- */
+.parent {
+    width: 1000px;
+    background-color: red;
+}
+  
+.child {
+    width: 25%;
+    background-color: yellow;
+}
+
+
+/* -------------------------------- */
+.parent {
+    width: 50vw;
+    background-color: red;
+}
+
+/* -------------------------------- */
+div {
+    background: #ff0000;
+    height: 300px;
+}
+
+/* -------------------------------- */
+.parent {
+    background-color: red;
+    height: 200px;
+}
+  
+.child {
+    display: inline-block;
+    height: 50%;
+    background-color: yellow;
+}
+
+/* -------------------------------- */
+.parent {
+    height: 50vh;
+    background-color: red;
+}
+
+/* -------------------------------- */
+.parrent {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+  
+.child {
+    width: 30%;
+    height: 30%;
+    color: #fff;
+    background-color: blue;
+}
+  
+.viewport {
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+/* -------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  height: 100vh;
+  /* height: 100%;でもどうように動作します*/
+}
+
+/* -------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.content {
+    width: 500px;
+    height: 500px;
+}
+  
+.red-box {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+  
+.blue-box {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}

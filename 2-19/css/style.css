@@ -1,0 +1,139 @@
+.item1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+}
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+}
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+}
+
+/* -------------------------------- */
+
+.item1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+/* -------------------------------- */
+
+.item1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+/* -------------------------------- */
+
+.item1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+}
+
+/* -------------------------------- */
+
+.item1 {
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item2 {
+    background: #00ff00;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item3 {
+    background: #0000ff;
+    width: 150px;
+    height: 150px;
+    clear: both;
+}
+
+/* -------------------------------- */
+
+.float {
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
+}
+.float__img {
+    width: 400px;
+    /* 箱の大きさ調整 */
+    float: left;
+}
+img {
+    width: 100%;
+}
+
+/* -------------------------------- */
+
+.float {
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
+}
+.float__ttl {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.float__img {
+    width: 400px;
+    /* 箱の大きさ調整 */
+    float: right;
+    margin: 0 0 20px 20px;
+}
+img {
+    width: 100%;
+}
+
+/* -------------------------------- */
+

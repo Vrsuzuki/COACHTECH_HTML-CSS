@@ -1,0 +1,30 @@
+p{
+    border: solid 2px #ff0000;
+}
+
+/* -------------------------------- */
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    border-radius: 30px;
+}
+
+/* -------------------------------- */
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+}
+
+/* -------------------------------- */
+
+.practice {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 60px 0 60px 0px;
+}

@@ -1,0 +1,77 @@
+body {
+    background-color:#ff0000;
+}
+
+/* -------------------------------- */
+
+.gradation__bg {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(#ff34ff, #8646ff);
+}
+
+/* -------------------------------- */
+
+.gradation__bg {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg,#ff34ff, #8646ff);
+}
+
+/* -------------------------------- */
+
+.gradation__bg {
+    width: 100%;
+    height: 700px;
+    background: radial-gradient(#ff34ff, #8646ff);
+}
+
+/* -------------------------------- */
+
+body {
+    background-image: url("../img/red.jpg");
+}
+
+/* -------------------------------- */
+
+body {
+    background-image: url("../img/red.jpg");
+    background-size: 300px 100px;
+}
+
+/* -------------------------------- */
+
+body {
+    background-image: url("../img/red.jpg");
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------- */
+
+body {
+    background-image: url("../img/red.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* -------------------------------- */
+
+body {
+    background: #f2f2f2 url("../img/red.jpg") no-repeat center / 300px 150px
+}
+  
+/* -------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+.bg {
+    background: url("../img/firstview.jpg") no-repeat bottom;
+    background-size: cover;
+    /* 高さを指定 */
+    height: 700px;
+}
+  
