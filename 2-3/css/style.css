@@ -1,10 +1,13 @@
-/* ー要素名ーーーーーーーーーーーーーー */
+.ーー要素名ーーーーーーーーーーーーーーーー {border:none;}
+
 p {
   font-size: 16px;
   font-weight: bold;
 }
 
-/* ーclassーーーーーーーーーーーーーー */
+
+.ーーclassーーーーーーーーーーーーーーーー {border:none;}
+
 .title {
   font-size: 16px;
   font-weight: bold;

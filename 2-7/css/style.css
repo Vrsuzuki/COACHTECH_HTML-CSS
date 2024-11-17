@@ -1,14 +1,25 @@
+.ーー要素の表示形式ーーーーーーーーーーーー {border:none;}
+
 p {
     color:red;
 }
+
+
+.ーーブロック要素ーーーーーーーーーーーーー {border:none;}
 
 div {
     background-color: red
 }
 
+
+.ーーインライン要素ーーーーーーーーーーーー {border:none;}
+
 span {
     background-color: red;
 }
+
+
+.ーーdisplayプロパティーーーーーーーーーー {border:none;}
 
 .example1 {
     display: inline;

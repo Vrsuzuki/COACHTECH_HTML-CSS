@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2-6 優先順位</title>
-    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <p id="blue" class="purple" style="color:red;">サンプルテキスト</p>
-    <p id="blue" class="red">サンプルテキスト </p>
-    <p class="">サンプルテキスト </p>
-    <p>サンプルテキスト</p>
-    <p id="blue" class="purple" style="color:red;">サンプルテキスト</p>
-    <div class="contain">
-      <h1 class="contain__ttl">サンプルタイトル</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-6 優先順位</title>
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【インライン指定】ーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p id="blue" class="purple" style="color:red;">サンプルテキスト</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【id指定】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p id="blue" class="red">サンプルテキスト </p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【属性セレクタ指定】ーーーーーーーーーーーーーーーーー
+  </h2>
+  <p class="">サンプルテキスト </p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【属性指定】ーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p>サンプルテキスト</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【!important】ーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <p id="blue" class="purple" style="color:red;">サンプルテキスト</p>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【優先度の計算】ーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="contain">
+    <h1 class="contain__ttl">サンプルタイトル</h1>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; height: 35px; padding: 0; margin: 20px 0;">
+    ー【問題】ーーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div id="firstview" class="contain">
+    <div class="contain__txt">
+      <p>サンプルテキスト </p>
     </div>
-    <div id="firstview" class="contain">
-      <div class="contain__txt">
-          <p>サンプルテキスト </p>
-      </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
