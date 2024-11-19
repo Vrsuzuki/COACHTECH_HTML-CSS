@@ -213,7 +213,7 @@
 
 
 .ーー折り返しflex-wrapーーーーーーーーーー {border:none;}
-.ーーno-wrap初期値ーーーーーーーーーー {border:none;}
+.ーーnowrap初期値ーーーーーーーーーー {border:none;}
 
 .flex-14 {
     display: flex;
@@ -268,7 +268,7 @@
     display: flex;
     margin-bottom: 10px;
 }
-.inline-block-17 {
+.inline-block {
     display: inline-block;
 }
 .box-17 {
