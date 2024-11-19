@@ -1,12 +1,13 @@
-/*【Flexbox】*/
-/* 並ぶ向き(flex-direction)ーーーーーーー */
-/* row（初期値）-------------------- */
-.flex {
+.ーー【Flexbox】ーーーーーーーーーーーーーーーーーー {border:none;}
+.ーー並ぶ向きflex-directionーーーーーーー {border:none;}
+.ーーrow初期値ーーーーーーーーーーーー {border:none;}
+
+.flex-1 {
     display: flex;
     flex-direction: row;
     background-color: yellow;
 }
-.box {
+.box-1 {
     background-color: red;
     margin-right: 20px;
     font-size: 32px;
@@ -14,14 +15,15 @@
     height: 100px;
 }
 
-/* row-reverse--------------------- */
 
-.flex {
+.ーーrow-reverseーーーーーーーーーーー {border:none;}
+
+.flex-2 {
     display: flex;
     flex-direction: row-reverse;
     background-color: yellow;
 }
-.box {
+.box-2 {
     background-color: red;
     margin-right: 20px;
     font-size: 32px;
@@ -29,14 +31,15 @@
     height: 100px;
 }
 
-/* column-------------------------- */
 
-.flex {
+.ーーcolumnーーーーーーーーーーーーーー {border:none;}
+
+.flex-3 {
     display: flex;
     flex-direction: column;
     background-color: yellow;
 }  
-.box {
+.box-3 {
     background-color: red;
     margin-bottom: 20px;
     font-size: 32px;
@@ -44,14 +47,15 @@
     height: 100px;
 }
 
-/* column-reverse------------------ */
 
-.flex {
+.ーーcolumn-reverseーーーーーーーーー {border:none;}
+
+.flex-4 {
     display: flex;
     flex-direction: column-reverse;
     background-color: yellow;
 }
-.box {
+.box-4 {
     background-color: red;
     margin-bottom: 20px;
     font-size: 32px;
@@ -59,15 +63,16 @@
     height: 100px;
 }
 
-/* 水平方向の配置(justify-content)ーーー */
-/* flex-start---------------------- */
 
-.flex {
+.ーー水平方向の配置justify-contentーーーー {border:none;}
+.ーーflex-startーーーーーーーーーーーー {border:none;}
+
+.flex-5 {
     display: flex;
     justify-content: flex-start;
     background-color: yellow;
-  }
-.box {
+}
+.box-5 {
     background-color: red;
     margin-right: 20px;
     font-size: 32px;
@@ -75,14 +80,15 @@
     height: 100px;
 }
 
-/* flex-end------------------------ */
 
-.flex {
+.ーーflex-endーーーーーーーーーーーー {border:none;}
+
+.flex-6 {
     display: flex;
     justify-content: flex-end;
     background-color: yellow;
 }  
-.box {
+.box-6 {
     background-color: red;
     margin-right: 20px;
     font-size: 32px;
@@ -90,14 +96,15 @@
     height: 100px;
 }
 
-/* center-------------------------- */
 
-.flex {
+.ーーcenterーーーーーーーーーーーーー {border:none;}
+
+.flex-7 {
     display: flex;
     justify-content: center;
     background-color: yellow;
 }
-.box {
+.box-7 {
     background-color: red;
     margin-right: 20px;
     font-size: 32px;
@@ -105,44 +112,47 @@
     height: 100px;
 }
 
-/* space-between------------------- */
 
-.flex {
+.ーーspace-betweenーーーーーーーーーー {border:none;}
+
+.flex-8 {
     display: flex;
     justify-content: space-between;
     background-color: yellow;
 } 
-.box {
+.box-8 {
     background-color: red;
     font-size: 32px;
     width: 100px;
     height: 100px;
 }
 
-/* space-around-------------------- */
 
-.flex {
+.ーーspace-aroundーーーーーーーーーー {border:none;}
+
+.flex-9 {
     display: flex;
     justify-content: space-around;
     background-color: yellow;
 }
-.box {
+.box-9 {
     background-color: red;
     font-size: 32px;
     width: 100px;
     height: 100px;
 }
 
-/* 垂直方向の配置（align-items）ーーーー */
-/* stretch（初期値）---------------- */
 
-.flex {
+.ーー垂直方向の配置align-itemsーーーーーー {border:none;}
+.ーーstretch初期値ーーーーーーーーーー {border:none;}
+
+.flex-10 {
     display: flex;
     align-items: stretch;
     background-color: yellow;
     height: 200px;
-  }
-.box {
+}
+.box-10 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -150,16 +160,16 @@
     height: 100px;
 }
 
-/* flex-start-------------------- */
 
-.flex {
+.ーーflex-startーーーーーーーーーーー {border:none;}
+
+.flex-11 {
     display: flex;
     align-items: flex-start;
     background-color: yellow;
     height: 200px;
 }
-  
-.box {
+.box-11 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -167,15 +177,16 @@
     height: 100px;
 }
 
-/* flex-end-------------------- */
 
-.flex {
+.ーーflex-endーーーーーーーーーーーー {border:none;}
+
+.flex-12 {
     display: flex;
     align-items: flex-end;
     background-color: yellow;
     height: 200px;
 }  
-.box {
+.box-12 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -183,15 +194,16 @@
     height: 100px;
 }
 
-/* center------------------- */
 
-.flex {
+.ーーcenterーーーーーーーーーーーーーー {border:none;}
+
+.flex-13 {
     display: flex;
     align-items: center;
     background-color: yellow;
     height: 200px;
 }  
-.box {
+.box-13 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -199,14 +211,16 @@
     height: 100px;
 }
 
-/* 折り返し（flex-wrap）ーーーーーーーー */
-/* no-wrap（初期値）------------- */
-.flex {
+
+.ーー折り返しflex-wrapーーーーーーーーーー {border:none;}
+.ーーno-wrap初期値ーーーーーーーーーー {border:none;}
+
+.flex-14 {
     display: flex;
     flex-wrap: nowrap;
     background-color: yellow;
 }
-.box {
+.box-14 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -214,14 +228,15 @@
     height: 100px;
 }
 
-/* wrap------------------------ */
 
-.flex {
+.ーーwrapーーーーーーーーーーーーーーー {border:none;}
+
+.flex-15 {
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     background-color: yellow;
-  }
-.box {
+}
+.box-15 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -229,14 +244,15 @@
     height: 100px;
 }
 
-/* wrap-reverse----------------- */
 
-.flex {
+.ーーwrap-reverseーーーーーーーーーー {border:none;}
+
+.flex-16 {
     display: flex;
     flex-wrap: wrap-reverse;
     background-color: yellow;
-  }
-.box {
+}
+.box-16 {
     background-color: red;
     font-size: 32px;
     margin-right: 20px;
@@ -245,16 +261,17 @@
     height: 100px;
 }
 
-/* Flexboxとinline-blockの違いーーーーーー */
 
-.flex {
+.ーーFlexboxとinline-blockの違いーーーーー {border:none;}
+
+.flex-17 {
     display: flex;
     margin-bottom: 10px;
 }
-.inline-block {
+.inline-block-17 {
     display: inline-block;
 }
-.box {
+.box-17 {
     border: solid 1px black;
     background-color: red;
     font-size: 32px;
@@ -262,7 +279,8 @@
     height: 100px;
 }
 
-/* 問題ーーーーーーーーーーーーーーーーーーー */
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
 
 .flex__item {
     display: flex;

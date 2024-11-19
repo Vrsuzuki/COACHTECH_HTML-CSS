@@ -1,8 +1,12 @@
+.ーーー【背景色と背景画像】ーーーーーーーーーーーーー {border:none;}
+.ーー背景色ーーーーーーーーーーーーーーーー {border:none;}
+
 body {
     background-color:#ff0000;
 }
 
-/* -------------------------------- */
+
+.ーーグラデーションーーーーーーーーーーーー {border:none;}
 
 .gradation__bg {
     width: 100%;
@@ -10,7 +14,8 @@ body {
     background: linear-gradient(#ff34ff, #8646ff);
 }
 
-/* -------------------------------- */
+
+.ーー角度を変更するーーーーーーーーーーーー {border:none;}
 
 .gradation__bg {
     width: 100%;
@@ -18,7 +23,8 @@ body {
     background: linear-gradient(90deg,#ff34ff, #8646ff);
 }
 
-/* -------------------------------- */
+
+.ーー円形グラデーションーーーーーーーーーー {border:none;}
 
 .gradation__bg {
     width: 100%;
@@ -26,20 +32,23 @@ body {
     background: radial-gradient(#ff34ff, #8646ff);
 }
 
-/* -------------------------------- */
+
+.ーー背景画像ーーーーーーーーーーーーーーー {border:none;}
 
 body {
     background-image: url("../img/red.jpg");
 }
 
-/* -------------------------------- */
+
+.ーー背景画像サイズーーーーーーーーーーーー {border:none;}
 
 body {
     background-image: url("../img/red.jpg");
     background-size: 300px 100px;
 }
 
-/* -------------------------------- */
+
+.ーー背景画像の繰り返しーーーーーーーーーー {border:none;}
 
 body {
     background-image: url("../img/red.jpg");
@@ -47,7 +56,8 @@ body {
     background-repeat: no-repeat;
 }
 
-/* -------------------------------- */
+
+.ーー背景画像の位置ーーーーーーーーーーーー {border:none;}
 
 body {
     background-image: url("../img/red.jpg");
@@ -55,13 +65,15 @@ body {
     background-position: center;
 }
 
-/* -------------------------------- */
+
+.ーーショートハンドーーーーーーーーーーーー {border:none;}
 
 body {
     background: #f2f2f2 url("../img/red.jpg") no-repeat center / 300px 150px
 }
   
-/* -------------------------------- */
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
 
 * {
     padding: 0;
@@ -71,7 +83,6 @@ body {
 .bg {
     background: url("../img/firstview.jpg") no-repeat bottom;
     background-size: cover;
-    /* 高さを指定 */
     height: 700px;
 }
   

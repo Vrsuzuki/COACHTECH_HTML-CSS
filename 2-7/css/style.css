@@ -1,3 +1,4 @@
+.ーーー【要素の表示形式】ーーーーーーーーーーーーーー {border:none;}
 .ーー要素の表示形式ーーーーーーーーーーーー {border:none;}
 
 p {
@@ -24,9 +25,11 @@ span {
 .example1 {
     display: inline;
 }
+
 .example2 {
     display: block;
 }
+
 .example3,
 .example4 {
     display: inline-block;

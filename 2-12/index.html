@@ -1,30 +1,98 @@
-<!DOCTYPE html> 
-<html lang="ja"> 
-<head> 
-    <meta charset="utf-8"> 
-    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>2-12 横幅と高さ</title> 
-</head> 
-<body> 
-    <p>背景</p> 
+<!DOCTYPE html>
+<html lang="ja">
 
-    <div class="gradation__bg"></div>
+<head>
+  <meta charset="utf-8">
+  <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>2-12 横幅と高さ</title>
+</head>
 
-    <!-- <div class="gradation__bg"></div>
+<body>
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【横幅px】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>横幅</div>
 
-    <div class="gradation__bg"></div>
 
-    <div>背景画像</div>
 
-    <div>背景画像</div>
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【横幅％】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="parent">
+    親要素
+    <div class="child">
+      子要素
+    </div>
+  </div>
 
-    <div>背景画像</div>
 
-    <div>背景画像</div>
 
-    <div>背景画像</div>
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【横幅vw】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="parent">
+    親要素
+  </div>
 
-    <div class="bg"></div> -->
-</body> 
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【高さpx】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div>高さ</div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【高さ％】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="parent">
+    親要素
+    <div class="child">
+      子要素
+    </div>
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【高さvh】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="parent">
+    親要素
+  </div>
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【%とvwとvhの違い】ーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="parrent">
+    <div class="child">
+      %は親要素から30%の幅になる
+    </div>
+  </div>
+  <div class="viewport">
+    ブラウザ幅に対して50%となる
+  </div>
+
+ 
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【問題１】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <img class="img" src="./mv.png">
+
+
+
+  <h2 style="color:darkcyan; font-size: 30px; font-weight: bold; min-height: 35px; padding: 0; margin: 20px 0;">
+    ー【問題２】ーーーーーーーーーーーーーーーーーーーーーー
+  </h2>
+  <div class="content">
+    <div class="red-box"></div>
+    <div class="blue-box"></div>
+  </div>
+</body>
+
 </html>

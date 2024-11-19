@@ -1,3 +1,6 @@
+.ーーー【余白】ーーーーーーーーーーーーーーーーーーー {border:none;}
+.ーー外側の余白ーーーーーーーーーーーーーー {border:none;}
+
 h1 {
     background: #ff0000;
     margin: 30px;
@@ -6,8 +9,9 @@ p {
     background: #000000;
     color: #fff;
 }
-  
-/* -------------------------------- */
+
+
+.ーー内側の余白ーーーーーーーーーーーーーー {border:none;}
 
 h1 {
     background: #ff0000;
@@ -18,7 +22,9 @@ p {
     color: #fff;
 }
 
-/* -------------------------------- */
+
+.ーーbox-sizingーーーーーーーーーーーーーー {border:none;}
+
 .boxsizing {
     width: 200px;
     height: 200px;
@@ -34,7 +40,8 @@ p {
     box-sizing: border-box;
 }
 
-/* -------------------------------- */
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
 
 .box {
     width: 400px;

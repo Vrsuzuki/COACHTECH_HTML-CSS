@@ -1,8 +1,5 @@
-p{
-    border: solid 2px #ff0000;
-}
-
-/* -------------------------------- */
+.ーーー【影】ーーーーーーーーーーーーーーーーーーーー {border:none;}
+.ーー要素に対する影ーーーーーーーーーーーー {border:none;}
 
 div {
     width: 200px;
@@ -11,16 +8,15 @@ div {
     border-radius: 30px;
 }
 
-/* -------------------------------- */
 
-.circle {
-    width: 200px;
-    height: 200px;
-    background: red;
-    border-radius: 50%;
+.ーー文字に対する影ーーーーーーーーーーーー {border:none;}
+
+p{
+    border: solid 2px #ff0000;
 }
 
-/* -------------------------------- */
+
+.ーー問題ーーーーーーーーーーーーーーーーー {border:none;}
 
 .practice {
     width: 200px;

@@ -1,3 +1,6 @@
+.ーーー【練習問題】ーーーーーーーーーーーーーーーーー {border:none;}
+.ーー練習問題１ーーーーーーーーーーーーーー {border: none;}
+
 .practice__btn {
     width: 200px;
     padding: 10px 0;
@@ -6,85 +9,96 @@
     background: linear-gradient(90deg, #ff5800, #8b00be);
     text-align: center;
     box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
-    margin:100px auto 0;
-    display:block;
-}  
+    margin: 100px auto 0;
+    display: block;
+}
 
-/* -------------------------------- */
+
+.ーー練習問題２ーーーーーーーーーーーーーー {border: none;}
 
 body {
     width: 760px;
     margin: 100px auto;
 }
+
 .card {
     box-shadow: 0 0 6px #eeeeee;
     display: flex;
 }
+
 .card__img {
     width: 40%;
 }
+
 .card__img img {
     width: 100%;
     vertical-align: top;
-} 
+}
+
 .card__content {
     padding: 15px;
 }
+
 .card__content-ttl {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 25px;
 }
+
 .card__content-tag {
     font-size: 14px;
     display: inline-block;
 }
+
 .card__content-tag--red {
     color: red;
     margin-left: 40px;
 }
 
-/* -------------------------------- */
+
+.ーー練習問題３ーーーーーーーーーーーーーー {border: none;}
 
 .card {
     width: 360px;
     margin: 100px auto 0;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}  
+}
+
 .card__img img {
     width: 100%;
 }
+
 .card__content {
     padding: 15px 25px;
-}  
+}
+
 .card__content-ttl {
     font-size: 18px;
     margin-bottom: 30px;
     font-weight: 400;
 }
+
 .card__content-cat {
     padding: 5px 10px;
     background: #008888;
     margin-bottom: 15px;
     display: inline-block;
-    /* 要素の文字数に応じて幅が変更されるためにinline-blockを指定 */
     color: #fff;
     font-size: 14px;
 }
+
 .card__content-tag {
     font-size: 14px;
     text-align: right;
-    /* 親要素にtext-alignを適用すると子要素のinline-block要素に適応される */
-}  
+}
+
 .card__content-tag-item {
     display: inline-block;
-    /* 横並びにするためにinline-blockを指定 */
     color: #008888;
-} 
+}
+
 .card__content-tag-item--last {
     display: inline-block;
-    /* 横並びにするためにinline-blockを指定 */
     margin-left: 20px;
     color: #888888;
 }
-
