@@ -1,56 +1,63 @@
-.text {
+.ーー強調テキストーーーーーーーーーーーーー {border:none;}
+
+.text-1 {
     font-size: 14px;
 }
 
-.emphasis {
+.emphasis-1 {
     font-size: 32px;
     font-weight: bold;
     color: red;
 }
 
-/* -------------------------------- */
 
-.text {
+.ーーマーカーテキストーーーーーーーーーーー {border:none;}
+
+.text-2 {
     font-size: 14px;
     font-weight: bold;
     background: linear-gradient(transparent 75%, yellow 75%);
 }
 
-/* -------------------------------- */
 
-.link {
+.ーーリンクーーーーーーーーーーーーーーーー {border:none;}
+
+.link-3 {
     font-size: 14px;
     color: #0051e0;
 }
 
-/* -------------------------------- */
 
-.title-inner {
+.ーー下線見出しーーーーーーーーーーーーーー {border:none;}
+
+.title-inner-4 {
     font-size: 24px;
     font-weight: bold;
     border-bottom: 3px dashed #000;
     padding-bottom: 1px;
 }
 
-/* -------------------------------- */
 
-.title {
+.ーー左線見出しーーーーーーーーーーーーーー {border:none;}
+
+.title-5 {
     padding: 5px;
     border-left: 3px solid #000;
     background: #f4f4f4;
     width: 120px;
 }
 
-/* -------------------------------- */
 
-.title {
+.ーー両サイド線見出しーーーーーーーーーーー {border:none;}
+
+.title-6 {
     position: relative;
     display: inline-block;
     padding: 0 55px;
 }
 
-.title:before,
-.title:after {
+.title-6:before,
+.title-6:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -60,22 +67,23 @@
     background-color: black;
 }
 
-.title:before {
+.title-6:before {
     left: 0;
 }
 
-.title:after {
+.title-6:after {
     right: 0;
 }
 
-/* -------------------------------- */
 
-a {
+.ーーナビ付きヘッダーーーーーーーーーーーー {border:none;}
+
+.a-7 {
     text-decoration: none;
     color: inherit;
 }
 
-.header {
+.header-7 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,106 +93,71 @@ a {
     color: #fff;
 }
 
-.header-ttl {
+.header-ttl-7 {
     font-size: 24px;
     width: 80px;
 }
 
-.header-nav-list {
+.header-nav-list-7 {
     display: flex;
     font-weight: bold;
 }
 
-.header-nav-item:not(:last-child) {
+.header-nav-item-7:not(:last-child) {
     margin-right: 30px;
 }
 
-/* -------------------------------- */
 
-a {
+.ーー2段ヘッダーーーーーーーーーーーーーーー {border:none;}
+
+.a-8 {
     text-decoration: none;
     color: inherit;
 }
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 0 30px;
-    background-color: #000;
-    color: #fff;
-}
-
-.header-ttl {
-    font-size: 24px;
-    width: 80px;
-}
-
-.header-nav-list {
-    display: flex;
-    font-weight: bold;
-}
-
-.header-nav-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-/* -------------------------------- */
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.header {
+.header-8 {
     width: 100%;
     background-color: #000;
     color: #fff;
     padding: 30px 0;
 }
-
-.header-ttl {
+.header-ttl-8 {
     font-size: 32px;
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
 }
-
-.header-nav-list {
+.header-nav-list-8 {
     display: flex;
     font-weight: bold;
     width: 100%;
     justify-content: center;
     font-size: 14px;
 }
-
-.header-nav-item:not(:last-child) {
+.header-nav-item-8:not(:last-child) {
     margin-right: 50px;
 }
+  
 
-/* -------------------------------- */
 
-a {
+.ーー縦並びフッターーーーーーーーーーーーー {border:none;}
+
+.a-9 {
     text-decoration: none;
     color: inherit;
 }
-
-.footer {
+.footer-9 {
     width: 100%;
     background-color: #000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
-
-.footer-ttl {
+.footer-ttl-9 {
     font-size: 24px;
     width: 100%;
     margin-bottom: 30px;
 }
-
-.footer-nav-list {
+.footer-nav-list-9 {
     display: flex;
     font-weight: bold;
     width: 100%;
@@ -192,43 +165,39 @@ a {
     font-size: 14px;
     margin-bottom: 30px;
 }
-
-.footer-nav-item:not(:last-child) {
+.footer-nav-item-9:not(:last-child) {
     margin-right: 30px;
 }
-
-.copyright {
+.copyright-9 {
     font-size: 12px;
 }
+  
 
-/* -------------------------------- */
 
-a {
+.ーー横並びフッターーーーーーーーーーーーー {border:none;}
+
+.a-10 {
     text-decoration: none;
     color: inherit;
 }
-
-.footer {
+.footer-10 {
     width: 100%;
     background-color: #000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
-
-.footer-inner {
+.footer-inner-10 {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-
-.footer-ttl {
+.footer-ttl-10 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px;
 }
-
-.footer-nav-list {
+.footer-nav-list-10 {
     display: flex;
     font-weight: bold;
     width: 100%;
@@ -236,34 +205,33 @@ a {
     font-size: 14px;
     margin-bottom: 20px;
 }
-
-.footer-nav-item:not(:last-child) {
+.footer-nav-item-10:not(:last-child) {
     margin-right: 30px;
 }
-
-.copyright {
+.copyright-10{
     font-size: 12px;
 }
+  
 
-/* -------------------------------- */
+.ーー画像なしカードーーーーーーーーーーーー {border:none;}
 
-.card {
+.card-11 {
     width: 300px;
     padding: 20px 12px 10px;
     border: 1px solid #e9eaea;
     border-radius: 3px;
 }
 
-.title {
+.title-11 {
     font-size: 20px;
 }
 
-.text {
+.text-11 {
     padding: 10px 0;
     font-size: 14px;
 }
 
-.link {
+.link-11 {
     display: block;
     text-align: center;
     margin: 10px 0;
@@ -271,16 +239,17 @@ a {
     color: #d7b071;
 }
 
-/* -------------------------------- */
 
-.wrapper {
+.ーー複数画像ありカードーーーーーーーーーー {border:none;}
+
+.wrapper-12 {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
 }
 
-img {
+.img-12 {
     width: 100px;
     height: auto;
 }
@@ -302,149 +271,136 @@ img {
     background: #e1f3ff;
 }
 
-.date {
+.date{
     font-size: 10px;
     margin-top: 5px;
 }
+  
 
-/* -------------------------------- */
+.ーー縦並びリストーーーーーーーーーーーーー {border:none;}
 
-.list {
+.list-13 {
     width: 200px;
     padding: 10px 30px;
     background: #fbfbf6;
     border: solid 3px #000;
     border-radius: 10px;
 }
-
-.item {
+.item-13 {
     padding: 10px 0;
     line-height: 1.5em;
 }
+  
 
-/* -------------------------------- */
 
-.list-wrapper {
+.ーー横並びリストーーーーーーーーーーーーー {border:none;}
+
+.list-wrapper-14 {
     font-weight: bold;
     color: #999;
 }
-
-.list {
+.list-14 {
     display: flex;
     align-items: baseline;
     padding: 10px 6px;
     list-style: none;
 }
-
-.item:not(:last-of-type) {
+.item-14:not(:last-of-type){
     margin-right: 20px;
 }
-
-.item:first-of-type {
+.item-14:first-of-type {
     line-height: 1.4;
     color: #555;
     border-bottom: 1.5px solid #d7b071;
 }
+  
 
-/* -------------------------------- */
+.ーー料金プランーーーーーーーーーーーーーー {border:none;}
 
-table {
+.table-15 {
     border-collapse: collapse;
     width: 50%;
 }
-
-table tr:last-child {
+.table-15 .tr-15:last-child {
     border-bottom: 1px solid #ddd;
 }
-
-table th {
+.table-15 .th-15 {
     text-align: center;
     padding: 20px 0;
-    border-right: solid 1px #ddd;
-    border-left: solid 1px #ddd;
+    border-right:solid 1px #ddd;
+    border-left:solid 1px #ddd;
 }
-
-table th:nth-child(1) {
-    background-color: #ddd;
+.table-15 .th-15:nth-child(1) {
+    background-color:#ddd;
 }
-
-table th:nth-child(2) {
-    background-color: #ff0033;
+.table-15 .th-15:nth-child(2) {
+    background-color:#ff0033;
     color: #fff;
 }
-
-table th:nth-child(3) {
-    background-color: #d7b071;
+.table-15 .th-15:nth-child(3) {
+    background-color:#d7b071;
     color: #fff;
 }
-
-table tr:nth-child(2) td {
+.table-15 .tr-15:nth-child(2) .td-15 {
     font-size: 28px;
     padding-top: 20px;
 }
-
-table tr:nth-child(3) td {
+.table-15 .tr-15:nth-child(3) .td-15 {
     padding-bottom: 20px;
 }
-
-table td {
+.table-15 .td-15 {
     text-align: center;
     padding: 10px 0;
-    border-right: solid 1px #ddd;
-    border-left: solid 1px #ddd;
+    border-right:solid 1px #ddd;
+    border-left:solid 1px #ddd;
 }
-
-table td a {
+.table-15 .td-15 .a-15 {
     color: #005fff;
-    padding: 7px 20px;
+    padding:7px 20px;
     font-weight: bold;
     text-decoration: none;
 }
+  
 
-/* -------------------------------- */
+.ーー企業概要ーーーーーーーーーーーーーーー {border:none;}
 
-table {
+.table-16 {
     width: 60%;
     border-collapse: collapse;
 }
-
-table th,
-table td {
+.table-16 .th-16,
+.table-16 .td-16 {
     border: 1px solid #ccc;
     padding: 20px;
 }
-
-table th {
+.table-16 .th-16 {
     font-weight: bold;
     background-color: #dedede;
 }
 
-/* -------------------------------- */
 
-.form {
+.ーーフォームーーーーーーーーーーーーーーー {border:none;}
+
+.form-17{
     width: 60%;
     margin: 20px auto;
 }
-
-.form-item {
+.form-item-17 {
     border-top: 1px solid #ddd;
     padding: 24px 0;
     width: 100%;
     display: flex;
     align-items: center;
 }
-
-.form-item:nth-child(5) {
+.form-item-17:nth-child(5) {
     border-bottom: 1px solid #ddd;
 }
-
-.form-item-label {
+.form-item-label-17 {
     width: 100%;
     font-weight: bold;
     font-size: 16px;
 }
-
-.form-item-label-required {
+.form-item-label-required-17 {
     border-radius: 6px;
     margin-right: 8px;
     padding: 8px 0;
@@ -455,8 +411,7 @@ table th {
     color: #fff;
     font-size: 14px;
 }
-
-.form-item-input {
+.form-item-input-17 {
     border: 1px solid #ddd;
     border-radius: 6px;
     margin-left: 40px;
@@ -466,8 +421,7 @@ table th {
     background: #eaedf2;
     font-size: 18px;
 }
-
-.form-item-textarea {
+.form-item-textarea-17 {
     border: 1px solid #ddd;
     border-radius: 6px;
     margin-left: 40px;
@@ -477,8 +431,7 @@ table th {
     background: #eaedf2;
     font-size: 18px;
 }
-
-.form-btn {
+.form-btn-17 {
     border-radius: 6px;
     margin: 32px auto 0;
     padding-top: 20px;
@@ -491,4 +444,5 @@ table th {
     font-size: 20px;
     border: none;
     cursor: pointer;
-}
+}  
+
